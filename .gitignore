@@ -1,0 +1,20 @@
+# gitignore file for Robert's Numerai competition model
+#
+# Recommended: VisualStudio.gitignore
+
+# Ignore model files that are auto-generated for the weekly competition
+models/model_target.pkl
+
+# Ignore downloaded data files
+tournament_data_449.parquet
+tournament_predictions_449.csv
+training_data.parquet
+validation_data.parquet
+validation_predictions_449.csv
+example_validation_predictions.parquet
+
+# Ignore ENV Variables and Keys
+Numerai Private 3.26.23.txt
+Numerai Public 3.26.22.txt
+AWS private.txt
+AWS public.txt
