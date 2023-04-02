@@ -12,6 +12,7 @@ training_data.parquet
 validation_data.parquet
 validation_predictions_449.csv
 example_validation_predictions.parquet
+449_v4_1_live_example_preds.csv
 
 # Ignore ENV Variables and Keys
 Numerai Private 3.26.23.txt
