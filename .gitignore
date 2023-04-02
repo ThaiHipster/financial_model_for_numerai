@@ -6,13 +6,13 @@
 models/model_target.pkl
 
 # Ignore downloaded data files
-tournament_data_449.parquet
-tournament_predictions_449.csv
+tournament_data_*.parquet
+tournament_predictions_*.csv
 training_data.parquet
 validation_data.parquet
-validation_predictions_449.csv
+validation_predictions_*.csv
 example_validation_predictions.parquet
-449_v4_1_live_example_preds.csv
+*_v4_1_live_example_preds.csv
 
 # Ignore ENV Variables and Keys
 Numerai Private 3.26.23.txt
