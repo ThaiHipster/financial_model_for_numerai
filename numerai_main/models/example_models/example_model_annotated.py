@@ -48,6 +48,7 @@ print('Reading minimal training data')
 with open("features.json", "r") as f:
     feature_metadata = json.load(f)
 features = feature_metadata["feature_sets"]["small"]
+
 # read in just those features along with era and target columns
 read_columns = features + [ERA_COL, DATA_TYPE_COL, TARGET_COL]
 
